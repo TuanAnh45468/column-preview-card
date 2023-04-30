@@ -21,37 +21,37 @@
 
     <title>Frontend Mentor | 3-column preview card component</title>
   </head>
-  <body class="bg-very-light-grey flex flex-col min-h-screen justify-center items-center">
-    <main class="mobile:w-[335px] grid">
+  <body class="flex min-h-screen flex-col items-center justify-center bg-very-light-grey">
+    <main class="grid laptop:grid-cols-3 mobile:w-[287px] laptop:w-auto laptop:h-[430px]">
 
-      <div class="bg-bright-orange rounded-t-lg flex flex-col items-start gap-y-5 px-5 py-5">
+      <div class="flex flex-col items-start gap-y-5 laptop:pb-8 mobile:rounded-t-lg laptop:rounded-l-lg laptop:w-[275px] laptop:rounded-tr-none px-5 py-5 bg-bright-orange">
         <img alt="" src="images/icon-sedans.svg">
-        <span class="font-big-shoulder-display text-very-light-grey text-3xl">Sedans</span>
+        <span class="text-3xl font-big-shoulder-display text-very-light-grey">Sedans</span>
         <p>
           Choose a sedan for its affordability and excellent fuel economy.
           Ideal for cruising in the city or on your next road trip.
         </p>
-        <button class="text-bright-orange hover:bg-bright-orange hover:text-very-light-grey">Learn More</button>
+        <button class="text-bright-orange laptop:mt-auto hover:bg-bright-orange hover:text-very-light-grey">Learn More</button>
       </div>
 
-      <div class="bg-dark-cyan flex flex-col items-start gap-y-5 px-5 py-5">
+      <div class="flex flex-col items-start laptop:w-[275px] laptop:pb-8 gap-y-5 px-5 py-5 bg-dark-cyan">
         <img alt="" src="images/icon-suvs.svg">
-        <span class="font-big-shoulder-display text-very-light-grey text-3xl">SUVs</span>
+        <span class="text-3xl font-big-shoulder-display text-very-light-grey">SUVs</span>
         <p>
           Take an SUV for its spacious interior, power, and versatility.
           Perfect for your next family vacation and off-road adventures.
         </p>
-        <button class="text-dark-cyan hover:bg-dark-cyan hover:text-very-light-grey">Learn More</button>
+        <button class="text-dark-cyan laptop:mt-auto hover:bg-dark-cyan hover:text-very-light-grey">Learn More</button>
       </div>
 
-      <div class="bg-very-dark-cyan rounded-b-xl flex flex-col items-start gap-y-5 px-5 py-5">
+      <div class="flex flex-col items-start gap-y-5 laptop:pb-8 laptop:w-[275px] laptop:rounded-r-lg laptop:rounded-b-none mobile:rounded-b-xl px-5 py-5 bg-very-dark-cyan">
         <img alt="" src="images/icon-luxury.svg">
-        <span class="font-big-shoulder-display text-very-light-grey text-3xl">Luxury</span>
+        <span class="text-3xl font-big-shoulder-display text-very-light-grey">Luxury</span>
         <p>
           Cruise in the best car brands without the bloated prices. Enjoy
           the enhanced comfort of a luxury rental and arrive in style.
         </p>
-        <button class="text-very-dark-cyan hover:bg-very-dark-cyan hover:text-very-light-grey">Learn More</button>
+        <button class="text-very-dark-cyan laptop:mt-auto hover:bg-very-dark-cyan hover:text-very-light-grey">Learn More</button>
       </div>
 
     </main>
