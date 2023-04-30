@@ -6,4 +6,16 @@
     body{
         @apply text-base
     }
+
+    img{
+        @apply w-[64px] h-[40px]
+    }
+
+    button{
+        @apply w-[140px] h-[44px] bg-very-light-grey rounded-3xl font-lexend-deca hover:border hover:border-transparent-white
+    }
+
+    p{
+        @apply font-lexend-deca text-transparent-white
+    }
 }
